@@ -1,0 +1,35 @@
+@keyframes float {
+  0% {
+    background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+  }
+  50% {
+    background: linear-gradient(to right, #f27121, #e94057, #8a2387);
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+  }
+  100% {
+    background: linear-gradient(to right, #f7797d, #fbd786, #c6ffdd);
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+  }
+}
+.title {
+  cursor: pointer;
+  font-family: "Vibes", cursive;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin-top: 300px;
+}
+.title:hover {
+  /*animation: float 0.6s linear infinite forwards;*/
+}
+.title:hover {
+  transition: all 0.5s ease-in-out;
+  font-size: 90px;
+}
+.body__images {
+  background-image: url("../images/darkness.png");
+}
