@@ -19,7 +19,7 @@
 }
 
 .main__images-b:hover {
-  z-index: 99999;
+  z-index: 999;
   transform: scale(2);
   transition: all 0.5s ease-in-out;
 }

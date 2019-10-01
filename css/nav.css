@@ -49,6 +49,5 @@
 }
 
 .nav__heart:hover {
-  color: red;
   animation: spin 1s linear infinite;
 }
