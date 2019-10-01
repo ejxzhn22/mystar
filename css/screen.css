@@ -15,10 +15,10 @@
   line-height: 1.5;
   padding: 0px 20px;
   display: none;
-  z-index: 4;
+  z-index: 99;
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (max-width: 1500px) {
   .bigScreen {
     display: flex;
   }

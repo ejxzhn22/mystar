@@ -11,10 +11,17 @@
   padding-right: 0px;
   padding-bottom: 80px;
 }
+
 .star-img {
   width: 200px;
   height: 200px;
   margin-bottom: 0px;
+}
+
+.main__images-b:hover {
+  z-index: 99999;
+  transform: scale(2);
+  transition: all 0.5s ease-in-out;
 }
 
 @keyframes showHeaderbar {
@@ -44,8 +51,10 @@
   left: 130px;
 }
 
-.star-img-blank-one {
+.main__images-b-one {
   position: relative;
+}
+.star-img-blank-one {
   width: 200px;
   height: 200px;
   margin-bottom: 0px;
@@ -54,12 +63,14 @@
   position: absolute;
   color: #fcfcfc;
   font-size: 18px;
-  top: 550px;
-  right: 180px;
+  top: 165px;
+  right: 20px;
 }
 
-.star-img-blank-two {
+.main__images-b-two {
   position: relative;
+}
+.star-img-blank-two {
   width: 200px;
   height: 200px;
   margin-bottom: 0px;
@@ -68,6 +79,6 @@
   position: absolute;
   color: #fcfcfc;
   font-size: 18px;
-  top: 750px;
-  right: 580px;
+  top: 165px;
+  right: 20px;
 }
