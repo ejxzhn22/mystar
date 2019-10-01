@@ -52,7 +52,7 @@
 }
 .main__img-blank-menu-one {
   position: absolute;
-  color: red;
+  color: #fcfcfc;
   font-size: 18px;
   top: 550px;
   right: 180px;
@@ -66,7 +66,7 @@
 }
 .main__img-blank-menu-two {
   position: absolute;
-  color: red;
+  color: #fcfcfc;
   font-size: 18px;
   top: 750px;
   right: 580px;
