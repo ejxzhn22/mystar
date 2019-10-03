@@ -6,7 +6,7 @@
 @import "nav.css";
 @import "index.css";
 @import "screen.css";
-
+@import "more.css";
 * {
   box-sizing: border-box;
 }

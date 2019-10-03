@@ -23,6 +23,10 @@
   transform: scale(2);
   transition: all 0.5s ease-in-out;
 }
+.star-img:hover {
+  border-radius: 10%;
+  transition: all 0.5s ease-in-out;
+}
 
 @keyframes showHeaderbar {
   from {
